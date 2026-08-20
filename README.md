@@ -76,8 +76,8 @@ IMAGE-GENERATOR-API/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-organization/img-api.git
-cd img-api
+git clone https://github.com/NostGore/IMAGE-GENERATOR-API.git
+cd IMAGE-GENERATOR-API
 ```
 
 ### 2. Create Virtual Environment
@@ -331,8 +331,8 @@ After=network.target
 [Service]
 Type=simple
 User=www-data
-WorkingDirectory=/opt/img-api
-ExecStart=/opt/img-api/.venv/bin/python API/server.py
+WorkingDirectory=/opt/IMAGE-GENERATOR-API
+ExecStart=/opt/IMAGE-GENERATOR-API/.venv/bin/python API/server.py
 Restart=always
 RestartSec=10
 
@@ -345,7 +345,7 @@ WantedBy=multi-user.target
 ## Project Structure
 
 ```
-img-api/
+IMAGE-GENERATOR-API/
 ├── API/
 │   ├── __init__.py          # Package exports
 │   ├── generator.py         # Browser automation and image generation
