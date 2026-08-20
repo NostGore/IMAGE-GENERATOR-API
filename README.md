@@ -1,4 +1,4 @@
-# IMG API
+# IMG API GENERATOR
 
 A high-performance REST API for AI-powered text-to-image generation. Built with FastAPI and Playwright, this service converts natural language prompts into high-quality images using advanced AI models.
 
@@ -45,7 +45,7 @@ IMG API provides a simple HTTP interface for generating images from text descrip
 ## Architecture
 
 ```
-IMG-API/
+IMAGE-GENERATOR-API/
 ├── API/
 │   ├── __init__.py          # Package initialization
 │   ├── generator.py         # Core image generation logic
